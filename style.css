@@ -1,0 +1,39 @@
+body {
+    background-color: #293241;
+}
+
+h1 {
+    text-align: center;
+    color: #f8edeb;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+button {
+    background-color: #e0fbfc;
+    color: #293241;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.08);
+    background-color: #98c1d9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+}
